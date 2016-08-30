@@ -17,3 +17,9 @@ end
 get '/age' do
   "im 22!"
 end
+
+get '/cat' do
+  "<div style='border: 2px dashed red'>
+  <img src='http://bit.ly/1eze8aE'/>
+  </div>"
+end
